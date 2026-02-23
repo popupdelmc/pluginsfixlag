@@ -1,5 +1,7 @@
 
 ## Setting up a Workspace
-- Sigma Sigma:
+- Run No Root:
     - For Run: `./usr/local/bin/proot --rootfs=. -0 -w /root -b /dev -b /sys -b /proc -b /etc/resolv.conf /bin/bash. \n`
-    - Sshx Download No Root: `curl -sSf https://sshx.io/get | sh`
+- Sshx Setup
+    - Download: 'curl -O https://sshx.io/get'
+    - Run: 'sh get run'
